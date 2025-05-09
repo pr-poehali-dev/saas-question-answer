@@ -44,9 +44,7 @@ const QuestionsPage = () => {
         </div>
       </header>
 
-      {/* Page Content */}
       <main className="container mx-auto px-4 py-8">
-        {/* Page Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">
@@ -136,9 +134,7 @@ const QuestionsPage = () => {
           </TabsContent>
         </Tabs>
 
-        {/* Sidebar and Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          {/* Main Content */}
           <div className="lg:col-span-3 space-y-6">
             <h2 className="text-2xl font-bold text-gray-900">
               Похожие вопросы
@@ -150,9 +146,7 @@ const QuestionsPage = () => {
             </div>
           </div>
 
-          {/* Sidebar */}
           <div className="space-y-6">
-            {/* Top Users */}
             <Card>
               <CardHeader>
                 <CardTitle>Топ экспертов</CardTitle>
@@ -192,7 +186,6 @@ const QuestionsPage = () => {
               </CardFooter>
             </Card>
 
-            {/* Popular Tags */}
             <Card>
               <CardHeader>
                 <CardTitle>Популярные теги</CardTitle>
@@ -215,7 +208,6 @@ const QuestionsPage = () => {
         </div>
       </main>
 
-      {/* Footer */}
       <footer className="bg-white border-t border-gray-200 mt-16 py-8">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
@@ -233,7 +225,6 @@ const QuestionsPage = () => {
   );
 };
 
-// Mock data
 const questions = [
   {
     id: 1,

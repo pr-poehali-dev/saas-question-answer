@@ -49,11 +49,11 @@ const HomePage = () => {
           </p>
           <div className="flex gap-4 pt-4">
             <Link
-              to="/register"
+              to="/ask"
               className="bg-primary text-white px-8 py-3 rounded-md hover:bg-primary/90 transition-all flex items-center"
             >
               <span className="transition-transform duration-300">
-                Начать бесплатно
+                Задать вопрос
               </span>
               <Icon
                 name="ArrowRight"
@@ -61,10 +61,10 @@ const HomePage = () => {
               />
             </Link>
             <Link
-              to="/about"
+              to="/questions"
               className="px-8 py-3 rounded-md border border-gray-300 text-gray-700 hover:bg-gray-50 transition-colors"
             >
-              Узнать больше
+              Все вопросы
             </Link>
           </div>
         </div>
